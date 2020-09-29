@@ -23,6 +23,10 @@ const HomepageBody = () => {
             onMouseLeave={() => setOverImage(false)}
           />
         )}
+        <section className="homepage-body-section">
+          <h4> Hi I'm David</h4>
+          <body></body>
+        </section>
       </body>
     </>
   );
