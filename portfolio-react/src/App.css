@@ -77,3 +77,12 @@ img.web-owner-gif {
   height: 50%;
   width: 50%;
 }
+
+/* mediaqueries */
+
+/* hover effects */
+
+.header-banner-anchor:hover {
+  padding-bottom: 1%;
+  transition: 0.4s;
+}
