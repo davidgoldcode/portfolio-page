@@ -132,24 +132,58 @@ li {
 
 .about-me-image-container {
   width: 50%;
-  border: 1px solid pink;
 }
 
 .about-me-text-container {
   width: 50%;
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description-page-gradient {
+  width: 1%;
+  background-image: linear-gradient(
+    180deg,
+    var(--blue) 0,
+    var(--red) 64%,
+    var(--yellow) 100%
+  );
 }
 
 img.about-me-image {
-  width: 80%;
+  height: 100%;
+  width: 50%;
+  object-fit: cover;
+  object-position: top;
 }
 
-h6,
+h1,
+h2,
 p,
 span {
   text-align: center;
-  margin: 0 auto;
+  font-size: 3rem;
   border: 1px solid black;
+}
+
+.about-me-text-container h1 {
+  margin: 2% auto;
+}
+
+.about-me-text-container h2 {
+  font-size: 5rem;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.about-me-text-container p {
+  align-self: flex-end;
+}
+
+.about-me-text-container h4 {
+  margin: 5% auto;
 }
 
 /* mediaqueries */
