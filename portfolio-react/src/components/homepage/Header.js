@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="header-banner">
+    <header className="header">
       <a className="header-banner-anchor about-section-anchor" href="blah">
         <h3>About</h3>
       </a>
