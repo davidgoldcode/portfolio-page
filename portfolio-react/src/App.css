@@ -30,6 +30,8 @@ body {
 #root {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
+  cursor: url("/Users/davidgold/Documents/lambdaSchool/projects/personal/portfolio-page/portfolio-react/public/assets/favicon-16x16.png"),
+    auto;
 }
 
 :root {
