@@ -24,8 +24,12 @@ body {
   font-family: "Circular Std Book";
   background-color: var(--beige);
   color: black;
-  border: 1px solid black;
   display: flex;
+}
+
+#root {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
 }
 
 :root {
@@ -43,6 +47,7 @@ header {
   flex-direction: column;
   background-color: transparent;
   justify-content: center;
+  scroll-snap-align: start;
 }
 
 .header-banner-anchor {
@@ -128,6 +133,7 @@ li {
   height: 100vh;
   width: 100vw;
   display: flex;
+  scroll-snap-align: end;
 }
 
 .about-me-image-container {
@@ -165,17 +171,16 @@ p,
 span {
   text-align: center;
   font-size: 3rem;
-  border: 1px solid black;
 }
 
 .about-me-text-container h1 {
   margin: 2% auto;
+  text-transform: uppercase;
 }
 
 .about-me-text-container h2 {
-  font-size: 5rem;
+  font-size: 6rem;
   margin: 0 auto;
-  text-transform: uppercase;
 }
 
 .about-me-text-container p {

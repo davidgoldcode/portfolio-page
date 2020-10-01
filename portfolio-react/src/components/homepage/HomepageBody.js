@@ -5,7 +5,7 @@ const HomepageBody = () => {
 
   return (
     <>
-      <body className="homepage-body-container">
+      <section className="homepage-body-container">
         <img
           src={
             mouseOver
@@ -17,7 +17,7 @@ const HomepageBody = () => {
           onMouseEnter={() => setMouseOver(!mouseOver)}
           onMouseLeave={() => setMouseOver(false)}
         />
-        <section className="homepage-body-section">
+        <div className="homepage-body-section">
           <h4> Hi I'm David</h4>
           <h5>
             I’m an aspiring software engineer who just recently finished a
@@ -31,8 +31,8 @@ const HomepageBody = () => {
             <li>Medium</li>
             <li>Instagram</li>
           </ul>
-        </section>
-      </body>
+        </div>
+      </section>
     </>
   );
 };
