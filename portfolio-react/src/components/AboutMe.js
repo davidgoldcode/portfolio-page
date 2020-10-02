@@ -4,20 +4,22 @@ const AboutMe = () => {
   return (
     <section className="about-me-page-container">
       <img
-        src={require("/Users/davidgold/Documents/lambdaSchool/projects/personal/portfolio-page/portfolio-react/src/assets/2020-06-23-7531-ANIMATION (1).png")}
+        src={require("/Users/davidgold/Documents/lambdaSchool/projects/personal/portfolio-page/portfolio-react/src/assets/2019-02-17-8899.jpg")}
         alt="pic of David"
         className="about-me-image"
       />
       <div className="about-me-text-container">
         <h1>01. About Me</h1>
         <div>
-          <h2>Hi, I'm David Gold</h2>
+          <h2>Hopeful developer</h2>
           <p>
-            I’m the co-founder of The Rotation, and ocassional engineer, product
-            designer, photographer, and DJ in New York City.
+            Okay, maybe not. <br />
+            <br />
+            But I just finished a coding bootcamp, and I'm looking for a
+            software development gig if you're hiring.
           </p>
         </div>
-        <h4>Instagram / Twitter / Email</h4>
+        <h4>Social info here</h4>
       </div>
       <div className="description-page-gradient"></div>
     </section>
