@@ -1,51 +1,25 @@
 import React from "react";
 
 const Portfolio = () => {
+  // need to change the aboutme tags here across all
   return (
-    <section className="portfolio-page-container">
-      <div className="portfolio-project-img-container">
-        <img
-          src={require("/Users/davidgold/Documents/lambdaSchool/projects/personal/portfolio-page/portfolio-react/src/assets/portfolio-img/pexels-startup-stock-photos-7369.jpg")}
-          alt="pic of project1"
-          className="portfolio-image"
-        />
-        <img
-          src={require("/Users/davidgold/Documents/lambdaSchool/projects/personal/portfolio-page/portfolio-react/src/assets/portfolio-img/pexels-startup-stock-photos-7369.jpg")}
-          alt="pic of project1"
-          className="portfolio-image"
-        />
-      </div>
-
-      <div className="portfolio-project-text-container-whole">
+    <section className="about-me-page-container">
+      <img
+        src={require("/Users/davidgold/Documents/lambdaSchool/projects/personal/portfolio-page/portfolio-react/src/assets/2019-02-17-8899.jpg")}
+        alt="pic of David"
+        className="about-me-image"
+      />
+      <div className="portfolio-text-container">
         <h1>02. Portfolio</h1>
-
-        <div className="portfolio-project-text-container-individual">
-          <h2>Project 1</h2>
+        <div className="portfolio-body-section">
+          <h2>Taco App</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-
-        <div className="portfolio-project-text-container-individual">
-          <h2>Project 1</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            A pretty looking application to help satiate my love for Tacos.
+            Generate a new Taco recipe on demand.
           </p>
         </div>
       </div>
-      <div className="description-page-gradient"></div>
+      <div className="portfolio-page-gradient"></div>
     </section>
   );
 };

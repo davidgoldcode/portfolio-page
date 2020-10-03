@@ -10,7 +10,7 @@ const AboutMe = () => {
       />
       <div className="about-me-text-container">
         <h1>01. About Me</h1>
-        <div>
+        <div className="about-body-section">
           <h2>Hopeful developer</h2>
           <p>
             Okay, maybe not. <br />
