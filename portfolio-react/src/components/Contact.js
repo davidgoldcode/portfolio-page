@@ -1,4 +1,5 @@
 import React from "react";
+import oldTelephone from "../assets/old-telephone.png";
 
 const Contact = () => {
   return (
@@ -6,7 +7,7 @@ const Contact = () => {
       <div className="contact-img-container">
         <h1>Get in touch</h1>
         <img
-          src={require("/Users/davidgold/Documents/lambdaSchool/projects/personal/portfolio-page/portfolio-react/public/assets/old-telephone.png")}
+          src={oldTelephone}
           alt="yellow telephone"
           className="contact-img"
         />

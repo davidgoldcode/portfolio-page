@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import davidGif from "../assets/davidGif.gif";
+import stillImg from "../assets/stillImg.png";
 
 const HomepageBody = () => {
   const [mouseOver, setMouseOver] = useState(false);
@@ -7,11 +9,7 @@ const HomepageBody = () => {
     <>
       <section className="homepage-body-container">
         <img
-          src={
-            mouseOver
-              ? require("/Users/davidgold/Documents/lambdaSchool/projects/personal/portfolio-page/portfolio-react/public/assets/west-side-hwy.gif")
-              : require("/Users/davidgold/Documents/lambdaSchool/projects/personal/portfolio-page/portfolio-react/public/assets/west-side-hwy-img.png")
-          }
+          src={mouseOver ? davidGif : stillImg}
           alt={"Gif of David"}
           className={"web-owner-gif"}
           onMouseEnter={() => setMouseOver(!mouseOver)}

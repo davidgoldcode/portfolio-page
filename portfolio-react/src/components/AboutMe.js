@@ -1,13 +1,10 @@
 import React from "react";
+import djphoto from "../assets/djphoto.jpg";
 
 const AboutMe = () => {
   return (
     <section className="about-me-page-container">
-      <img
-        src={require("/Users/davidgold/Documents/lambdaSchool/projects/personal/portfolio-page/portfolio-react/public/assets/2019-02-17-8899.jpg")}
-        alt="pic of David"
-        className="about-me-image"
-      />
+      <img src={djphoto} alt="pic of David" className="about-me-image" />
       <div className="about-me-text-container">
         <h1>01. About Me</h1>
         <div className="about-body-section">

@@ -1,14 +1,11 @@
 import React from "react";
+import djphoto from "../assets/djphoto.jpg";
 
 const Portfolio = () => {
   // need to change the aboutme tags here across all
   return (
     <section className="about-me-page-container">
-      <img
-        src={require("/Users/davidgold/Documents/lambdaSchool/projects/personal/portfolio-page/portfolio-react/public/assets/2019-02-17-8899.jpg")}
-        alt="pic of David"
-        className="about-me-image"
-      />
+      <img src={djphoto} alt="pic of David" className="about-me-image" />
       <div className="portfolio-text-container">
         <h1>02. Portfolio</h1>
         <div className="portfolio-body-section">
