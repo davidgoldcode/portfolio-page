@@ -9,8 +9,8 @@ const HomepageBody = () => {
         <img
           src={
             mouseOver
-              ? require("/Users/davidgold/Documents/lambdaSchool/projects/personal/portfolio-page/portfolio-react/src/assets/west-side-hwy.gif")
-              : require("/Users/davidgold/Documents/lambdaSchool/projects/personal/portfolio-page/portfolio-react/src/assets/2020-06-23-7531-ANIMATION (1).png")
+              ? require("/Users/davidgold/Documents/lambdaSchool/projects/personal/portfolio-page/portfolio-react/public/assets/west-side-hwy.gif")
+              : require("/Users/davidgold/Documents/lambdaSchool/projects/personal/portfolio-page/portfolio-react/public/assets/west-side-hwy-img.png")
           }
           alt={"Gif of David"}
           className={"web-owner-gif"}

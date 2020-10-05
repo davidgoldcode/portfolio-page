@@ -5,7 +5,7 @@ const Portfolio = () => {
   return (
     <section className="about-me-page-container">
       <img
-        src={require("/Users/davidgold/Documents/lambdaSchool/projects/personal/portfolio-page/portfolio-react/src/assets/2019-02-17-8899.jpg")}
+        src={require("/Users/davidgold/Documents/lambdaSchool/projects/personal/portfolio-page/portfolio-react/public/assets/2019-02-17-8899.jpg")}
         alt="pic of David"
         className="about-me-image"
       />
