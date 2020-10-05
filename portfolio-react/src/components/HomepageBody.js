@@ -23,11 +23,11 @@ const HomepageBody = () => {
             going
           </h5>
           <ul>
-            <li>Email</li>
-            <li>Github</li>
-            <li>Twitter</li>
-            <li>Medium</li>
-            <li>Instagram</li>
+            <li className="social-contact-email">Email</li>
+            <li className="social-contact-github">Github</li>
+            <li className="social-contact-twitter">Twitter</li>
+            <li className="social-contact-medium">Medium</li>
+            <li className="social-contact-linkedin">LinkedIn</li>
           </ul>
         </div>
       </section>
