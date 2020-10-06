@@ -265,35 +265,44 @@ h4 {
 
 /* end of portfolio */
 
-section.contact-me-container {
+footer.contact-me-container {
   height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   scroll-snap-align: end;
 }
 
-.contact-img-container {
-  height: 100%;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
 .contact-img-container h1 {
-  font-size: 8vmin;
-}
-
-.contact-img {
-  width: 90%;
-  object-fit: cover;
-  object-position: bottom;
+  font-size: 10vmin;
+  width: 80%;
+  text-transform: uppercase;
 }
 
 .contact-social-list {
-  width: 50%;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.social-contact-email:hover,
+.social-contact-github:hover,
+.social-contact-twitter:hover,
+.social-contact-medium:hover,
+.social-contact-medium:hover,
+.social-contact-linkedin:hover {
+  font-size: 4.5vmin;
+  font-weight: bold;
+}
+
+.social-contact-email,
+.social-contact-github,
+.social-contact-twitter,
+.social-contact-medium,
+.social-contact-medium,
+.social-contact-linkedin {
+  font-size: 6vmin;
 }
 
 .contact-page-gradient {
@@ -313,16 +322,6 @@ section.contact-me-container {
 .header-banner-anchor:hover {
   padding: 0.5% 0%;
   transition: 0.4s;
-}
-
-.social-contact-email:hover,
-.social-contact-github:hover,
-.social-contact-twitter:hover,
-.social-contact-medium:hover,
-.social-contact-medium:hover,
-.social-contact-linkedin:hover {
-  font-size: 4.5vmin;
-  font-weight: bold;
 }
 
 .social-contact-email:hover {

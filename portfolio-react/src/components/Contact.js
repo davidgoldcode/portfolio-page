@@ -1,24 +1,20 @@
 import React from "react";
-import oldTelephone from "../assets/old-telephone.png";
 
 const Contact = () => {
   return (
-    <section className="contact-me-container">
+    <footer className="contact-me-container">
       <div className="contact-img-container">
         <h1>Get in touch</h1>
-        <img
-          src={oldTelephone}
-          alt="yellow telephone"
-          className="contact-img"
-        />
       </div>
       <main className="contact-social-list">
-        <h4>Github</h4>
-        <h4>Facebook</h4>
-        <h4>Twitter</h4>
+        <p className="social-contact-email">Email</p>
+        <p className="social-contact-github">Github</p>
+        <p className="social-contact-twitter">Twitter</p>
+        <p className="social-contact-medium">Medium</p>
+        <p className="social-contact-linkedin">LinkedIn</p>
       </main>
       <div className="contact-page-gradient"></div>
-    </section>
+    </footer>
   );
 };
 
