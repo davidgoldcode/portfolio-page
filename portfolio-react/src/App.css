@@ -265,25 +265,39 @@ h4 {
 
 /* end of portfolio */
 
-footer.contact-me-container {
+.contact-page-section {
   height: 100%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-wrap: nowrap;
   scroll-snap-align: end;
 }
 
-.contact-img-container h1 {
-  font-size: 10vmin;
-  width: 80%;
+img.contact-page-photo {
+  height: 100%;
+  width: 50%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.contact-me-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-me-container h1 {
+  font-size: 2.5vmin;
+  margin: 2% auto;
   text-transform: uppercase;
 }
 
 .contact-social-list {
   display: flex;
   flex-direction: column;
+  margin: 20% auto;
   width: 80%;
-  margin: 0 auto;
+  border: 1px solid pink;
 }
 
 .social-contact-email:hover,
@@ -296,13 +310,10 @@ footer.contact-me-container {
   font-weight: bold;
 }
 
-.social-contact-email,
-.social-contact-github,
-.social-contact-twitter,
-.social-contact-medium,
-.social-contact-medium,
-.social-contact-linkedin {
-  font-size: 6vmin;
+.contact-page-list {
+  font-size: 4vmin;
+  width: 80%;
+  padding: 2%;
 }
 
 .contact-page-gradient {

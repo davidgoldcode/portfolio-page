@@ -30,6 +30,7 @@ const HomepageBody = () => {
             <li className="social-contact-linkedin">LinkedIn</li>
           </ul>
         </div>
+        <div className="portfolio-page-gradient"></div>
       </section>
     </>
   );
